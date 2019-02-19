@@ -4,7 +4,7 @@ Android based YouTube url extractor
 These are the urls to the YouTube video or audio files, so you can stream or download them.
 It features an age verification circumvention and a signature deciphering method (mainly for vevo videos).
 
-* Builds: [![JitPack](https://jitpack.io/v/HaarigerHarald/android-youtubeExtractor.svg)](https://jitpack.io/#HaarigerHarald/android-youtubeExtractor)
+* Builds: [![JitPack](https://jitpack.io/v/sarbagyastha/android-youtubeExtractor.svg)](https://jitpack.io/#sarbagyastha/android-youtubeExtractor)
 * Dependency: [js-evaluator-for-android](https://github.com/evgenyneu/js-evaluator-for-android)
 
 ## Gradle
@@ -20,7 +20,7 @@ repositories {
 And the dependency:
 
 ```java	
-implementation 'com.github.HaarigerHarald:android-youtubeExtractor:master-SNAPSHOT'
+implementation 'com.github.sarbagyastha:android-youtubeExtractor:2.0.0'
 ```
 
 ## Usage
@@ -42,7 +42,7 @@ new YouTubeExtractor(this) {
 ```
 
 The ytFiles SparseArray is a map of available media files for one YouTube video, accessible by their itag 
-value. For further infos about itags and their associated formats refer to: [Wikipedia - YouTube Quality and formats](http://en.wikipedia.org/wiki/YouTube#Quality_and_formats).
+value. For further infos about itags and their associated formats refer to: [Wikipedia - YouTube Quality and formats](https://en.wikipedia.org/w/index.php?title=YouTube&oldid=800910021#Quality_and_formats).
 
 ## Configuration
     
@@ -82,16 +82,6 @@ Those videos aren't working:
 ## Modules
 
 * **youtubeExtractor:** The extractor android library.
-
-* **sampleApp:** A simple example downloader App.
-
-* **advancedDownloader:** A more sophisticated App using the [mp4parser](https://github.com/sannies/mp4parser) library to mux dash audio and video files together and add metadata to audio files after downloading. [youtubeDownloader.apk](https://github.com/HaarigerHarald/android-youtubeExtractor/releases/latest)
-
-<img height="0" width="4%">
-<img src='Screenshot_2015-04-26-17-04-382.png' width='30%'>
-<img height="0" width="10%">
-<img src='Screenshot_2015-04-27-17-05-50.png' width='30%'>
-<img height="0" width="15%">
 
 ## License
 

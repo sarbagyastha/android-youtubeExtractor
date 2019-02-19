@@ -11,7 +11,7 @@ It features an age verification circumvention and a signature deciphering method
 
 To always build from the latest commit with all updates. Add the JitPack repository:
 
-```java
+```Groovy
 repositories {
     maven { url "https://jitpack.io" }
 }

@@ -12,7 +12,7 @@ android {
 }
 
 dependencies {
-    implementation('com.github.sarbagyastha:js-evaluator-for-android:v6.1.0') {
+    implementation('com.github.sarbagyastha:js-evaluator-for-android:v6.2.0') {
         exclude module: 'appcompat'
     }
     implementation 'androidx.annotation:annotation:1.0.1'

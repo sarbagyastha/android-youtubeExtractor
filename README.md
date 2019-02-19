@@ -20,7 +20,7 @@ repositories {
 And the dependency:
 
 ```Groovy	
-implementation 'com.github.sarbagyastha:android-youtubeExtractor:v2.1.0'
+implementation 'com.github.sarbagyastha:android-youtubeExtractor:v2.2.0'
 ```
 
 ## Usage
